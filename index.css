@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 20px 0px;
+    width: 400px;
+    text-align: center;
+    line-height: 2pc;
+}
+
+i {
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #333;
+    height: 10vh;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li {
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+li:hover {
+    background-color: rgb(90, 90, 90);
+    transition: 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+.selected {
+    background-color: rgb(70, 70, 70);  
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.fullWidth {
+    width: 80%;
+}
+
+.topPage {
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/frame.jpg);
+    background-size: cover;
+}
+
+.buttonOne {
+    border: unset;
+    margin: 10px 0px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 30px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.buttonTwo {
+    border: unset;
+    margin: 10px 0px;
+    background-color: #333;
+    border-radius: 30px;
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.background {
+    height: 420px;
+    background-image: url(./images/person-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.rowCentered {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.centered {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.columnCentered {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0px;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
