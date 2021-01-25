@@ -52,6 +52,19 @@ h1 {
     font-size: 1.4rem;
 }
 
+h2 {
+    font-size: 3rem;
+    max-width: 60%;
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    height: 10px;
+    margin-top: 20px;
+    background-color: black;
+}
+
 .selected {
     background-color: rgb(70, 70, 70);  
 }
