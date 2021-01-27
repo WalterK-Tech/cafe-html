@@ -62,13 +62,12 @@ h1 {
 }
 
 .selected {
-    background-color: rgb(70, 70, 70);  
+    background-color: rgb(70, 70, 70);
 }
 
 .container {
     width: 40%;
 }
-
 
 .centered {
     width: 100vw;
