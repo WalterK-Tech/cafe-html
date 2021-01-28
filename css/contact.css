@@ -36,6 +36,10 @@ li:hover {
     transition: 0.3s ease-in-out;
 }
 
+h1 {
+    font-size: 1.4rem;
+}
+
 label {
     font-weight: 700;
     margin-bottom: 10px;
@@ -57,15 +61,11 @@ textarea {
     border: 1px solid rgb(187, 187, 187);
 }
 
-h1 {
-    font-size: 1.4rem;
-}
-
 .selected {
     background-color: rgb(70, 70, 70);
 }
 
-.container {
+zzzzzz.container {
     width: 40%;
 }
 
