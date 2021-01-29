@@ -1,0 +1,80 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.faq {
+    position: relative;
+}
+
+.faq {
+    width: 70%;
+    margin: auto;
+}
+
+.faq input {
+    display: none;
+}
+
+.faq input:checked+label {
+    background: -webkit-linear-gradient(top, #ccc, #ccc);
+    color: #000;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.faq label {
+    font-family: helvetica;
+    cursor: pointer;
+    display: block;
+    height: auto;
+    text-align: left;
+    padding: 15px;
+    padding-left: 15px;
+    margin: 0;
+    padding-right: 15px;
+    color: #333;
+    font-size: 100%;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    font-weight: bold;
+    background: -webkit-linear-gradient(top, #eee, #ddd);
+}
+
+.faq label:before {
+    content: "+";
+    line-height: 21px;
+    font-size: 21px;
+    margin-right: 5px;
+}
+
+.faq input:checked+label:before {
+    content: "-";
+}
+
+.faq label:last-child {
+    margin-right: 0;
+}
+
+.faq label:hover {
+    background: -webkit-linear-gradient(top, #eee, #ddd);
+}
+
+.faq article {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.15s ease-out;
+    position: relative;
+    margin-bottom: 0;
+    top: 0;
+    padding: 10px 10px 10px 10px;
+    color: #333;
+    opacity: 0;
+    border: 1px solid #ddd;
+}
+
+.faq div>input:checked~article {
+    max-height: 500px;
+    opacity: 1;
+    margin-bottom: 12px;
+    transition: max-height 0.25s ease-in;
+}
