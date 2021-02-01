@@ -8,6 +8,7 @@
         justify-content: space-between;
     }
     h1 {
+        text-align: center;
         padding: 20px;
     }
     .rowCentered {
@@ -20,4 +21,3 @@
     .centered {
         margin: 30px 0px;
     }
-}
